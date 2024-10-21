@@ -520,4 +520,61 @@ footer {
     .gallery-container {
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
     }
+
+    .navbar ul li {
+        display: block; /* Mengubah menjadi block untuk mobile */
+        margin: 10px 0; /* Jarak antar item navbar */
+    }
+
+    /* Responsif untuk loading screen */
+    #loading-screen img {
+        width: 30%; /* Menggunakan persentase agar responsif di mobile */
+        max-width: 80px; /* Ukuran maksimum untuk gambar loading */
+    }
+}
+
+/* Media Queries untuk tablet */
+@media (min-width: 769px) and (max-width: 1024px) {
+    #hero h2 {
+        font-size: 3rem; 
+    }
+
+    #hero p {
+        font-size: 1.2rem;
+    }
+
+    .card {
+        width: 45%; /* Lebar kartu 45% dari layar untuk tablet */
+    }
+
+    /* Responsif untuk loading screen */
+    #loading-screen img {
+        width: 20%; /* Menggunakan persentase agar responsif di tablet */
+        max-width: 100px; /* Ukuran maksimum untuk gambar loading */
+    }
+}
+
+/* Media Queries untuk desktop */
+@media (min-width: 1025px) {
+    #hero h2 {
+        font-size: 4rem; 
+    }
+
+    #hero p {
+        font-size: 1.5rem;
+    }
+
+    .card {
+        width: 30%; /* Lebar kartu 30% dari layar untuk desktop */
+    }
+
+    .contact-form {
+        max-width: 600px; /* Lebar maksimal form kontak untuk desktop */
+    }
+
+    /* Responsif untuk loading screen */
+    #loading-screen img {
+        width: 10%; /* Menggunakan persentase agar responsif di desktop */
+        max-width: 100px; /* Ukuran maksimum untuk gambar loading */
+    }
 }
