@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style/style.css"> <!-- Ensure this path is correct -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="loading-screen">
+        <img src="image/Coding.gif" alt="Loading...">
+    </div>
+    
+    <header>
+        <div class="navbar">
+            <h1 class="logo"><i class="fas fa-laptop-code"></i> My Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                    <li><a href="#projects"><i class="fas fa-folder-open"></i> Projects</a></li>
+                    <li><a href="#skills"><i class="fas fa-lightbulb"></i> Skills</a></li>
+                    <li><a href="#gallery"><i class="fas fa-images"></i> Gallery</a></li>
+                    <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <h2 class="hero-title animate-hero">
+            Hello, I'm Rendy Ramdhani 
+            <i class="fas fa-hand-wave waving-hand"></i> <!-- Tangan melambai -->
+        </h2>
+        <p class="hero-subtitle animate-hero">
+            A passionate web developer with skills in modern web technologies.
+        </p>
+        <img src="image/Web Development.gif" alt="Your GIF Description" class="hero-gif"> <!-- Tambahkan GIF -->
+        
+        <div class="hero-button-container">
+            <a href="#projects" class="btn animate-hero">
+                <i class="fas fa-arrow-right"></i> See My Work
+            </a>
+        </div>
+    </section>
+
+    <section id="about" class="fade-in slide-in">
+        <h2>About Me <i class="fas fa-user"></i></h2>
+        <p>I am a web developer with experience in front-end and back-end development. I love creating clean, user-friendly websites and applications. <i class="fas fa-code"></i></p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+        </div>
+    </section>
+
+    <section id="projects" class="fade-in">
+        <h2>Projects <i class="fas fa-folder-open"></i></h2>
+        <div class="card-container">
+            <div class="card">
+                <i class="fas fa-code"></i>
+                <h3>Project 1</h3>
+                <p>Some description of the project.</p>
+                <div class="card-icons">
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fab fa-js-square"></i>
+                </div>
+            </div>
+            <div class="card">
+                <i class="fas fa-laptop-code"></i>
+                <h3>Project 2</h3>
+                <p>Some description of the project.</p>
+                <div class="card-icons">
+                    <i class="fab fa-node-js"></i>
+                    <i class="fab fa-react"></i>
+                </div>
+            </div>
+            <div class="card">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>Project 3</h3>
+                <p>Some description of the project.</p>
+                <div class="card-icons">
+                    <i class="fab fa-android"></i>
+                    <i class="fab fa-apple"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+    <section id="skills" class="fade-in">
+        <h2>Skills <i class="fas fa-lightbulb"></i></h2>
+        <div class="skill-container">
+            <div class="skill">
+                <label><i class="fab fa-html5"></i> HTML</label>
+                <div class="progress-bar" data-skill="90"></div>
+                <span class="percentage">0%</span>
+            </div>
+            <div class="skill">
+                <label><i class="fab fa-css3-alt"></i> CSS</label>
+                <div class="progress-bar" data-skill="80"></div>
+                <span class="percentage">0%</span>
+            </div>
+            <div class="skill">
+                <label><i class="fab fa-js-square"></i> JavaScript</label>
+                <div class="progress-bar" data-skill="70"></div>
+                <span class="percentage">0%</span>
+            </div>
+            <div class="skill">
+                <label><i class="fab fa-react"></i> React</label>
+                <div class="progress-bar" data-skill="60"></div>
+                <span class="percentage">0%</span>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="gallery" class="fade-in">
+        <h2>Gallery <i class="fas fa-images"></i></h2>
+        <div class="gallery-container">
+            <img src="image/Screenshot (60).png" alt="Project Screenshot 1" class="zoom-in"> <!-- Ensure image paths are correct -->
+            <img src="image/Screenshot (59).png" alt="Project Screenshot 2" class="zoom-in">
+        </div>
+    </section>
+
+    <section id="contact" class="fade-in">
+        <h2>Contact Me <i class="fas fa-envelope"></i></h2>
+        <p>If you would like to get in touch, please feel free to send me an email. <i class="fas fa-smile"></i></p>
+        <div class="contact-form">
+            <form>
+                <input type="text" placeholder="Name" class="form-input">
+                <input type="email" placeholder="Email" class="form-input">
+                <textarea placeholder="Message" class="form-textarea"></textarea>
+                <button type="submit" class="form-button"><i class="fas fa-paper-plane"></i> Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src=" style/script.js"></script> <!-- Ensure this path is correct -->
+</body>
+</html>
