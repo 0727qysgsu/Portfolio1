@@ -487,48 +487,37 @@ footer {
 
 /* Media Queries untuk perangkat mobile */
 @media (max-width: 768px) {
-    .navbar ul li {
-        display: block; /* Menjadikan item navbar vertikal */
-        margin: 10px 0; /* Jarak antar item */
-    }
-
     #hero h2 {
-        font-size: 2.5rem; /* Ukuran font lebih kecil */
+        font-size: 2.5rem; 
     }
 
     #hero p {
-        font-size: 1rem; /* Ukuran font lebih kecil */
+        font-size: 1rem;
     }
 
     .card-container {
-        flex-direction: column; /* Menjadikan kartu vertikal */
-        align-items: center; /* Pusatkan kartu */
+        flex-direction: column;
+        align-items: center;
     }
 
     .card {
         width: 90%; /* Lebar kartu 90% dari layar */
     }
-
+    
     #about p {
-        font-size: 0.9rem; /* Ukuran font lebih kecil */
+        font-size: 0.9rem; 
     }
 
     .skills-container {
-        flex-direction: column; /* Menjadikan skill vertikal */
+        flex-direction: column; 
     }
 
     .skill {
-        width: 90%; /* Lebar skill 90% dari layar */
-        margin: 10px auto; /* Pusatkan skill */
+        width: 90%; 
+        margin: 10px auto; 
     }
 
     .gallery-container {
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Ukuran grid lebih kecil */
-    }
-
-    .contact-form {
-        width: 90%; /* Lebar form 90% dari layar */
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
     }
 }
-
-/* Tambahan untuk elemen lain jika diperlukan */
