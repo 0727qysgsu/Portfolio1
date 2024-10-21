@@ -484,3 +484,45 @@ footer {
 .btn:hover::after {
     transform: translate(-50%, -50%) scale(1);
 }
+
+/* Media Queries */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Mengurangi ukuran font di perangkat seluler */
+    }
+
+    .navbar ul li {
+        display: block; /* Mengubah tampilan navbar menjadi vertikal */
+        margin: 10px 0; /* Jarak antar item navbar */
+    }
+
+    #hero {
+        padding: 80px 20px; /* Mengurangi padding */
+    }
+
+    #hero h2 {
+        font-size: 2.5rem; /* Ukuran font lebih kecil */
+    }
+
+    #hero p {
+        font-size: 1rem; /* Ukuran font lebih kecil */
+    }
+
+    #projects, #skills, #gallery, #contact {
+        padding: 30px 10px; /* Mengurangi padding */
+    }
+
+    .card-container {
+        flex-direction: column; /* Mengubah layout kartu menjadi kolom */
+        align-items: center; /* Pusatkan kartu */
+    }
+
+    .card {
+        width: 90%; /* Mengurangi lebar kartu */
+        margin: 10px 0; /* Jarak antar kartu */
+    }
+
+    .social-icons a {
+        font-size: 20px; /* Mengurangi ukuran ikon sosial */
+    }
+}
